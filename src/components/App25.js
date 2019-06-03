@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ResourceList25 from './ResourceList25';
+import UserList25 from './UserList25';
 
 // Class-based component
 // class App25 extends React.Component
@@ -28,6 +29,7 @@ const App25 = (props) => {
 
     return (
         <div className="ui container">
+            <UserList25 />
             <div>
                 <button className="ui button" onClick={() => setResource('posts')}>
                     Posts
